@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knihkupectví</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header class="header">
+
+        <div class="header-1">
+
+            <a href="#" class="logo"> <i class="fas fa-book"></i> Knihkupectví </a>
+
+            <form action="" class="search-form">
+                <input type="search" name="" placeholder="Search here..." id="search-box">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+
+            <div class="icons">
+                <div id="search-btn" class="fas fa-search"></div>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <div id="login-btn" class="fas fa-user"></div>
+            </div>
+
+        </div>
+
+        <div class="header-2">
+            <nav class="navbar">
+                <a href="#home">domů</a>
+                <a href="#featured">doporučené</a>
+                <a href="#arrivals">příjezdy</a>
+                <a href="html4.html">recenze</a>
+                <a href="html3.html">blogy</a>
+                <a href='html2.html' alt='Broken links'>žánry</a>
+
+            </nav>
+        </div>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- bottom navbar  -->
+
+    <nav class="bottom-navbar">
+        <a href="#home" class="fas fa-home"></a>
+        <a href="#featured" class="fas fa-list"></a>
+        <a href="#arrivals" class="fas fa-tags"></a>
+        <a href="#reviews" class="fas fa-comments"></a>
+
+    </nav>
+
+    <!-- login form  -->
+
+    <div class="login-form-container">
+
+        <div id="close-login-btn" class="fas fa-times"></div>
+
+        <form action="">
+            <h3>přihlásit se</h3>
+            <span>uživatelské jméno</span>
+            <input type="email" name="" class="box" placeholder="enter your email" id="">
+            <span>heslo</span>
+            <input type="password" name="" class="box" placeholder="enter your password" id="">
+            <div class="checkbox">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">zapamatuj si mě</label>
+            </div>
+            <input type="submit" value="sign in" class="btn">
+            <p>zapomenuté heslo ? <a href="#">klikněte zde</a></p>
+            <p>nemáte účet ? <a href="#">vytvořit</a></p>
+        </form>
+
+    </div>
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="row">
+
+            <div class="content">
+                <h3 style="color:white;">Až 50% sleva</h3>
+                <a href="#" class="btn">Kup nyní</a>
+                <p style="color:white; font-size:20px;"> Kupujte použité nebo nové knihy, online nebo v obchodě, pouze na ...</p>
+            </div>
+
+            <div class="swiper books-slider">
+                <div class="swiper-wrapper">
+                    <a href="#" class="swiper-slide"><img src="matrix.jpg" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="the_wish.jpg" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="reckless.jpg" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="the_maid.jpg" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="shadow_and_bone.jpg" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="wish_you_were_here.jpg" alt=""></a>
+                </div>
+                <img src="image/stand.png" class="stand" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- home section ense  -->
+
+    <!-- icons section starts  -->
+
+    <section class="icons-container">
+
+        <div class="icons">
+            <i class="fas fa-shipping-fast"></i>
+            <div class="content">
+                <h3>Bezplatný mail</h3>
+                <p>pro objednávky nad 500 Kč</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-lock"></i>
+            <div class="content">
+                <h3>bezpečná platba</h3>
+                <p>100% zabezpečení dat</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-redo-alt"></i>
+            <div class="content">
+                <h3>Snadné návraty</h3>
+                <p>vrátit do 10 dnů </p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-headset"></i>
+            <div class="content">
+                <h3>24/7 podpora</h3>
+                <p>SMS/telefonní hovory kdykoliv </p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- icons section ends -->
+
+    <!-- featured section starts  -->
+
+    <section class="featured" id="featured">
+
+        <h1 class="heading"> <span>doporučené knihy</span> </h1>
+
+        <div class="swiper featured-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="itendswithus.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>doporučené knihy</h3>
+                        <div class="price">200 Kč <span>500 Kč</span></div>
+                        <a href="#" class="btn">přidat do košíku</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="thealchemist.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>doporučené knihy</h3>
+                        <div class="price">300 Kč <span>500 Kč</span></div>
+                        <a href="#" class="btn">přidat do košíku</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="matrix.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>doporučené knihy</h3>
+                        <div class="price">300 Kč <span>500 Kč</span></div>
+                        <a href="#" class="btn">přidat do košíku</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="one_of_us_is_lying.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>doporučené knihy</h3>
+                        <div class="price">500 Kč <span>700 Kč</span></div>
+                        <a href="#" class="btn">přidat do košíku</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="the_davinci_code.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>doporučené knihy</h3>
+                        <div class="price">200 Kč <span>400 Kč</span></div>
+                        <a href="#" class="btn">přidat do košíku</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="normal_people.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>doporučené knihy</h3>
+                        <div class="price">400 Kć <span>700 Kč</span></div>
+                        <a href="#" class="btn">přidat do košíku
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="shadow_and_bone.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>doporučené knihy</h3>
+                        <div class="price">650 Kč <span>750 Kč</span></div>
+                        <a href="#" class="btn">přidat do košíku</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="what_if.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>doporučené knihy</h3>
+                        <div class="price">450 Kč <span>650 Kč</span></div>
+                        <a href="#" class="btn">přidat do košíku</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="brothers.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>doporučené knihy</h3>
+                        <div class="price">300 Kč <span>500 Kć</span></div>
+                        <a href="#" class="btn">přidat do košíku</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="the_dutch_house.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>doporučené knihy</h3>
+                        <div class="price">500 Kč <span>800 Kč</span></div>
+                        <a href="#" class="btn">přidat do košíku</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+        </div>
+
+    </section>
+
+    <!-- featured section ends -->
+
+    <!-- newsletter section starts -->
+
+    <section class="newsletter">
+
+        <form action="">
+            <h3>přihlásit k odběru nejnovějších aktualizací</h3>
+            <input type="email" name="" placeholder="enter your email" id="" class="box">
+            <input type="submit" value="subscribe" class="btn">
+        </form>
+
+    </section>
+
+    <!-- newsletter section ends -->
+
+    <!-- arrivals section starts  -->
+
+    <section class="arrivals" id="arrivals">
+
+        <h1 class="heading"> <span>nové</span> </h1>
+
+        <div class="swiper arrivals-slider">
+
+            <div class="swiper-wrapper">
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="itendswithus.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>nové</h3>
+                        <div class="price">500 Kč <span>700 Kč</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="the_fallen_stars.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>nové</h3>
+                        <div class="price">350 Kč <span>520 Kč</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="the_maid.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>nové</h3>
+                        <div class="price">550 Kč <span>600 Kč</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="to_paradise.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>nové</h3>
+                        <div class="price">300 Kč <span>500 Kč</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="invisible.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>nové</h3>
+                        <div class="price">450 Kč <span>550 Kč</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="swiper arrivals-slider">
+
+            <div class="swiper-wrapper">
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="stacey.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>nové</h3>
+                        <div class="price">0 Kč <span>400 Kč</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="reckless.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>nové</h3>
+                        <div class="price">300 Kč <span>500 Kč</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="wish_you_were_here.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>nové</h3>
+                        <div class="price">500 Kč <span>650 Kč</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="fiona_and_jane.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>nové</h3>
+                        <div class="price">300 Kč <span>500 Kč</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="the_wish.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>nové</h3>
+                        <div class="price">400 Kč <span>700 Kč</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- arrivals section ends -->
+
+    <!-- deal section starts  -->
+
+    <section class="deal">
+
+        <div class="content">
+            <h3>nabídka dne</h3>
+            <h1>až 50 % sleva</h1>
+            <p>Kupte si ještě dnes!</p>
+            <a href="#" class="btn">Koupit</a>
+        </div>
+
+        <div class="image">
+            <img src="image/deal-img.jpeg" alt="">
+        </div>
+
+    </section>
+
+    <!-- deal section ends -->
+    <!-- footer section starts  -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Naše lokace:</h3>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Dánsko</a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Anglie</a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Německo </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Itálie</a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Francie </a>
+
+            </div>
+
+
+
+
+
+            <div class="box">
+                <h3>Kontakt</h3>
+                <a href="#"> <i class="fas fa-phone"></i> +420-999-333-666 </a>
+                <a href="#"> <i class="fas fa-phone"></i> +420-333-222-888 </a>
+                <a href="#"> <i class="fas fa-envelope"></i> bookchill@gmail.com </a>
+                <img src="image/worldmap.png" class="map" alt="">
+            </div>
+
+        </div>
+
+        <div class="share">
+            <a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+
+        <div class="credit"> Vytvořil <span>Milan Nguyen</span> | Všechna práva vyhrazena! </div>
+
+    </section>
+
+    <!-- footer section ends -->
+
+    <!-- loader  -->
+
+    <div class="loader-container">
+        <img src="image/loader-img.gif" alt="">
+    </div>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!-- custom js file link  -->
+    <script src="javascript.js"></script>
+
+</body>
+
+</html>
